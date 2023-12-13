@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(20, 30, 72);
+    text-align: center;
+}
+input{
+text-align: center;
+
+}
+
+   /* حجم النص المستجيب */
+#boxMessage {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  /* تعديل الهوامش المستجيبة */
+  @media (max-width: 600px) {
+    #boxMessage {
+      margin: 0.5em;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    #boxMessage {
+      margin: 0.3em;
+    }
+  }
